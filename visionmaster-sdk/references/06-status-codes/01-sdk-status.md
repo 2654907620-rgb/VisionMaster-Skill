@@ -1,0 +1,297 @@
+<!-- src:_s_d_k_xE7_x8A_xB6_xE6_x80_x81_xE7_xA0_x81.html | path:状态码 > SDK状态码 -->
+<!-- src:_s_d_k_xE7_x8A_xB6_xE6_x80_x81_xE7_xA0_x81.html -->
+<!-- path:状态码 > SDK状态码 -->
+# SDK状态码
+
+| 正确码 | | |
+| --- | --- | --- |
+| 名称 | 值 | 说明 |
+| IMVS\_EC\_OK | 0x00000000 | 成功，无错误 |
+
+| 通用错误码 | | |
+| --- | --- | --- |
+| 名称 | 值 | 说明 |
+| IMVS\_EC\_VERSION | 0xE0000000 | 版本错误 |
+| IMVS\_EC\_PARAM | 0xE0000001 | 参数错误 |
+| IMVS\_EC\_RESOURCE\_CREATE | 0xE0000002 | 资源创建失败 |
+| IMVS\_EC\_OUTOFMEMORY | 0xE0000003 | 内存不足 |
+| IMVS\_EC\_POINTER\_CAST | 0xE0000004 | 指针转换错误 |
+| IMVS\_EC\_MEMORY\_BEYOND\_THRESHOLD | 0xE0000005 | 系统内存使用率超过阈值 |
+| IMVS\_EC\_INVALID\_HANDLE | 0xE0000006 | 句柄无效 |
+| IMVS\_EC\_NOT\_SUPPORT | 0xE0000007 | 操作不支持 |
+| IMVS\_EC\_NOT\_READY | 0xE0000008 | 资源未初始化或未准备好 |
+| IMVS\_EC\_WAIT\_TIMEOUT | 0xE0000009 | 等待超时 |
+| IMVS\_EC\_NULL\_PTR | 0xE000000A | 指针为空 |
+| IMVS\_EC\_PROCESS\_START\_FAIL | 0xE000000B | 进程启动失败 |
+| IMVS\_EC\_PROCESS\_ALREADY\_START | 0xE000000C | 客户端程序已启动 |
+| IMVS\_EC\_SOLUTION\_LOADING | 0xE000000D | 正在加载方案 |
+| IMVS\_EC\_SOLUTION\_SAVING | 0xE000000E | 正在保存方案 |
+| IMVS\_EC\_CALL\_ORDER | 0xE000000F | 接口调用顺序错误 |
+| IMVS\_EC\_LOAD\_LIBRARY | 0xE0000010 | 动态库加载失败 |
+| IMVS\_EC\_GET\_FUN\_ADDRESS | 0xE0000011 | 获取函数地址失败 |
+| IMVS\_EC\_PARAM\_BUF\_LEN | 0xE0000012 | 参数缓冲区长度不足 |
+| IMVS\_EC\_GETTING\_PLAT\_INFO | 0xE0000013 | 正在获取底层信息 |
+| IMVS\_EC\_INDEX\_OUT\_OF\_BOUNDARY | 0xE0000014 | 索引值越界 |
+| IMVS\_EC\_OPEN\_FILEMAPPING | 0xE0000015 | 打开共享内存失败 |
+| IMVS\_EC\_THREAD\_START\_FAIL | 0xE0000016 | 开启线程失败 |
+| IMVS\_EC\_PROTOCOL | 0xE0000017 | 协议解析错误 |
+| IMVS\_EC\_DATA\_ERROR | 0xE0000018 | 数据错误 |
+| IMVS\_EC\_NOT\_IMPLEMENTED | 0xE0000019 | 操作未实现 |
+| IMVS\_EC\_DATA\_OVER\_SIZE | 0xE000001A | 数据大小超过上限 |
+| IMVS\_EC\_PRECONDITION | 0xE000001B | 前置条件有误 |
+| IMVS\_EC\_RUNTIME | 0xE000001C | 运行环境错误 |
+| IMVS\_EC\_SOLUTION\_CLOSING | 0xE000001D | 正在关闭方案 |
+| IMVS\_EC\_SILENT\_EXEC\_STATUS | 0xE000001E | 静默执行中 |
+| IMVS\_EC\_DYNAMICIO\_PARAM\_NOT\_FOUND | 0xE000001F | 动态IO参数无法找到 |
+| IMVS\_EC\_CLOSE\_FILEMAPPING | 0xE0000020 | 关闭共享内存失败 |
+| IMVS\_EC\_NAME\_INVALID | 0xE0000021 | 名称不合法 |
+| IMVS\_EC\_MODULE\_CACHE\_FULL | 0xE0000022 | 缓存队列满 |
+| IMVS\_EC\_SAVE\_BIG\_FILE | 0xE0000023 | 存图大文件 |
+| IMVS\_EC\_DATA\_QUEUE\_EMPTY | 0xE0000024 | 数据队列为空 |
+| IMVS\_EC\_UNKNOWN | 0xE00000FF | 未知错误 |
+
+| 通信相关错误码 | | |
+| --- | --- | --- |
+| 名称 | 值 | 说明 |
+| IMVS\_EC\_COMMU\_SOCKET\_CREAT | 0xE0000100 | socket创建失败 |
+| IMVS\_EC\_COMMU\_SOCKET\_INVALID | 0xE0000101 | socket无效 |
+| IMVS\_EC\_COMMU\_SERIAL\_OPEN | 0xE0000102 | 打开串口失败 |
+| IMVS\_EC\_COMMU\_INVALID\_ADDRESS | 0xE0000103 | 地址无效 |
+| IMVS\_EC\_COMMU\_ADDRESS\_INUSE | 0xE0000104 | 地址已被使用 |
+| IMVS\_EC\_COMMU\_CONNECT | 0xE0000105 | 连接失败 |
+| IMVS\_EC\_COMMU\_DISCONNECT | 0xE0000106 | 断开连接失败 |
+| IMVS\_EC\_COMMU\_SEND\_FAIL | 0xE0000107 | 发送失败 |
+| IMVS\_EC\_COMMU\_RECV\_TIMEOUT | 0xE0000108 | 接收超时 |
+| IMVS\_EC\_COMMU\_MESSAGE\_FORMAT | 0xE0000109 | 消息格式错误 |
+| IMVS\_EC\_COMMU\_MSG\_TOO\_LONG | 0xE000010A | 报文长度超出限制 |
+| IMVS\_EC\_COMMU\_HEARTBEAT | 0xE000010B | 心跳异常 |
+| IMVS\_EC\_COMMU\_INVALID\_PORT | 0xE000010C | 端口无效 |
+
+| 文件相关错误码 | | |
+| --- | --- | --- |
+| 名称 | 值 | 说明 |
+| IMVS\_EC\_FILE\_MKDIR | 0xE0000200 | 创建路径错误 |
+| IMVS\_EC\_FILE\_OPEN | 0xE0000201 | 文件无法打开 |
+| IMVS\_EC\_FILE\_SAVE | 0xE0000202 | 保存文件数据失败 |
+| IMVS\_EC\_FILE\_NOT\_FOUND | 0xE0000203 | 文件不存在 |
+| IMVS\_EC\_FILE\_FORMAT | 0xE0000204 | 文件格式错误 |
+| IMVS\_EC\_FILE\_COMPRESS | 0xE0000205 | 文件压缩失败 |
+| IMVS\_EC\_FILE\_DECOMPRESS | 0xE0000206 | 文件解压失败 |
+| IMVS\_EC\_FILE\_XML\_ELEMENT | 0xE0000207 | xml中element不存在 |
+| IMVS\_EC\_FILE\_XML\_ATTRIBUTE | 0xE0000208 | xml中Attribute不存在 |
+| IMVS\_EC\_FILE\_PATH\_TOO\_LONG | 0xE0000209 | 文件路径长度超过系统最大值 |
+| IMVS\_EC\_FILE\_BE\_OCCUPIED | 0xE000020A | 文件被占用 |
+| IMVS\_EC\_FILE\_PATH\_EMPTY | 0xE000020B | 目标路径为空 |
+| IMVS\_EC\_FILE\_INSUFFICIENT\_DISK\_SPACE | 0xE000020C | 磁盘空间不足 |
+| IMVS\_EC\_FILE\_UI\_NOT\_FOUND | 0xE000020D | 界面文件不存在 |
+| IMVS\_EC\_FILE\_BACKUP | 0xE000020E | 文件备份失败 |
+| IMVS\_EC\_FILE\_PATH\_INVALID | 0xE000020F | 目标路径无效 |
+| IMVS\_EC\_FILE\_DELETE | 0xE0000210 | 删除文件失败 |
+| IMVS\_EC\_FILE\_READ\_ONLY | 0xE0000211 | 文件是只读的 |
+
+| 模块操作错误码 | | |
+| --- | --- | --- |
+| 名称 | 值 | 说明 |
+| IMVS\_EC\_MODULE\_BUSY | 0xE0000300 | 流程处于忙碌状态 |
+| IMVS\_EC\_MODULE\_COUNT\_BEYOND | 0xE0000301 | 模块个数超出限制 |
+| IMVS\_EC\_MODULE\_NOT\_FOUND | 0xE0000302 | 模块不存在 |
+| IMVS\_EC\_MODULE\_ALREADY\_EXIST | 0xE0000303 | 模块已存在 |
+| IMVS\_EC\_MODULE\_EMPTY | 0xE0000304 | 模块数量为0 |
+| IMVS\_EC\_MODULE\_NOT\_REGISTER | 0xE0000305 | 模块未注册 |
+| IMVS\_EC\_MODULE\_SUBSCRIBE\_FAIL | 0xE0000306 | 模块订阅失败 |
+| IMVS\_EC\_MODULE\_PROC\_CTRL\_EXCEPT | 0xE0000307 | 流程控制模块出现异常（崩溃） |
+| IMVS\_EC\_MODULE\_INPUT\_CFG\_UNDONE | 0xE0000308 | 模块输入未配置完成 |
+| IMVS\_EC\_MODULE\_INPUT\_NOT\_FOUND | 0xE0000309 | 模块输入无法找到 |
+| IMVS\_EC\_MODULE\_INPUT\_STATUS | 0xE000030A | 模块输入状态错误 |
+| IMVS\_EC\_MODULE\_INPUT\_COUNT | 0xE000030B | 模块输入个数错误 |
+| IMVS\_EC\_MODULE\_INPUT\_BUF\_LEN | 0xE000030C | 模块输入缓冲区长度太小 |
+| IMVS\_EC\_MODULE\_PARAM\_NOT\_SUPPORT | 0xE000030D | 参数不支持 |
+| IMVS\_EC\_MODULE\_PARAM\_VALUE\_ILLEGAL | 0xE000030E | 参数值无效 |
+| IMVS\_EC\_MODULE\_PARAM\_TYPE | 0xE000030F | 参数类型错误 |
+| IMVS\_EC\_MODULE\_IMPORT\_DATA | 0xE0000310 | 导入数据格式错误 |
+| IMVS\_EC\_MODULE\_CONTINUE\_EXECUTE | 0xE0000311 | 正在连续执行 |
+| IMVS\_EC\_MODULE\_PROCEDURE\_EMPTY | 0xE0000312 | 流程内的模块数量为0 |
+| IMVS\_EC\_MODULE\_HEARTBEAT\_EXCEPTION | 0xE0000313 | 模块心跳出现异常 |
+| IMVS\_EC\_MODULE\_SUB\_RST\_NOT\_FOUND | 0xE0000314 | 未找到订阅结果值 |
+| IMVS\_EC\_MODULE\_OUT\_NOT\_FOUND | 0xE0000315 | 模块输出无法找到 |
+| IMVS\_EC\_MODULE\_PROCEDURE\_NOT\_FOUND | 0xE0000316 | 流程不存在 |
+| IMVS\_EC\_MODULE\_PROCEDURE\_ALREADY\_EXIST | 0xE0000317 | 流程已存在 |
+| IMVS\_EC\_MODULE\_CREATE\_ALG\_MODULE\_FAILED | 0xE0000318 | 创建算法模块失败 |
+| IMVS\_EC\_MODULE\_LOOP\_ALREADY\_EXIST | 0xE0000319 | 循环已存在 |
+| IMVS\_EC\_MODULE\_LOOP\_NOT\_FOUND | 0xE000031A | 循环不存在 |
+| IMVS\_EC\_MODULE\_SUB\_RECORD\_NOT\_FOUND | 0xE000031B | 未找到订阅记录 |
+| IMVS\_EC\_MODULE\_SUB\_PARAM\_ERROR | 0xE000031C | 订阅参数有误 |
+| IMVS\_EC\_MODULE\_PROCEDURE\_DISABLED | 0xE000031D | 流程处于禁用状态 |
+| IMVS\_EC\_MODULE\_TRIGGERSTRING\_NOT\_MATCH | 0xE000031E | 触发字符不匹配 |
+| IMVS\_EC\_MODULE\_GLOBALSCRIPT\_PROCESSING | 0xE000031F | 全局脚本流程正在执行中 |
+| IMVS\_EC\_MODULE\_GLOBALSCRIPT\_COMPILE\_FAIL | 0xE0000320 | 全局脚本编译失败 |
+| IMVS\_EC\_MODULE\_GROUP\_ALREADY\_EXIST | 0xE0000321 | 分组已存在 |
+| IMVS\_EC\_MODULE\_GROUP\_NOT\_FOUND | 0xE0000322 | 分组不存在 |
+| IMVS\_EC\_MODULE\_GROUP\_EXPORTING | 0xE0000323 | 正在导出Group |
+| IMVS\_EC\_MODULE\_GROUP\_IMPORTING | 0xE0000324 | 正在导入Group |
+| IMVS\_EC\_MODULE\_BEYOND\_NESTED\_LAYER | 0xE0000325 | 超出嵌套层级 |
+| IMVS\_EC\_PROCESS\_COUNT\_BEYOND | 0xE0000326 | 流程数量超出限制 |
+| IMVS\_EC\_MODULE\_NAME\_DUPLICATED | 0xE0000327 | 名称重复 |
+| IMVS\_EC\_PROCESS\_IN\_VMFILE\_SOL | 0xE0000328 | 流程包含在方案的界面文件 |
+| IMVS\_EC\_MODULE\_PROCEDURE\_EXPORTING | 0xE0000329 | 正在导出流程 |
+| IMVS\_EC\_MODULE\_PROCEDURE\_IMPORTING | 0xE000032A | 正在导入流程 |
+| IMVS\_EC\_MODULE\_ROUGH\_MATCH\_FAIL | 0xE000032B | 字符缺陷粗定位失败 |
+| IMVS\_EC\_MODULE\_COARSE\_OVER\_SCORE | 0xE000032C | 粗糙度阈值大于最小匹配分数 |
+| IMVS\_EC\_MODULE\_SUB\_CONNECTION\_ERROR | 0xE000032D | 两模块存在订阅关系但连线不可达 |
+| IMVS\_EC\_MODULE\_SCALE\_VALUE\_OVERFLOW | 0xE000032E | 位置修正XY尺度值超出范围（0~10000） |
+| IMVS\_EC\_MODULE\_EXACT\_MATCH\_FAIL | 0xE000032F | 字符缺陷精定位失败 |
+| IMVS\_EC\_MODULE\_EXACT\_MATCH\_CHANGED | 0xE0000330 | 精定位信息改变 重新进行统计训练 |
+| IMVS\_EC\_MODULE\_PARAM\_INPUT | 0xE0000331 | 模块输入IO个数为0 |
+| IMVS\_EC\_MODULE\_SUB\_GLOBAL\_VARIABLE | 0xE0000332 | 订阅了全局变量 |
+| IMVS\_EC\_MODULE\_HAS\_LOAD\_FAIL | 0xE0000333 | 存在加载失败模块 |
+| IMVS\_EC\_MODULE\_OVERRUN\_IMAGECOUNT | 0xE0000334 | 单一图像源存图数量大于120 |
+| IMVS\_EC\_MODULE\_INPECT\_MATCH\_FAIL | 0xE0000335 | 未匹配到目标或匹配个数异常 |
+| IMVS\_EC\_MODULE\_GROUP\_OUTPUT\_MODULE\_FAILED | 0xE0000336 | group输出关联模块执行失败 |
+| IMVS\_EC\_MODULE\_DUPLICATED\_BINDING | 0xE0000337 | 重复绑定 |
+| IMVS\_EC\_MODULE\_NO\_BINDING\_INFO | 0xE0000338 | 无绑定信息 |
+
+| 相机相关错误码 | | |
+| --- | --- | --- |
+| 名称 | 值 | 说明 |
+| IMVS\_EC\_CAMERA\_RUNTIME | 0xE0000400 | 运行环境有问题 |
+| IMVS\_EC\_CAMERA\_NOT\_IMPLEMENTED | 0xE0000401 | 命令不被设备支持 |
+| IMVS\_EC\_CAMERA\_ACCESS\_DENIED | 0xE0000402 | 设备无访问权限 |
+| IMVS\_EC\_CAMERA\_BUSY | 0xE0000403 | 设备忙，或网络断开 |
+| IMVS\_EC\_CAMERA\_PACKET | 0xE0000404 | 网络包数据错误 |
+| IMVS\_EC\_CAMERA\_USB\_READ | 0xE0000405 | 读USB出错 |
+| IMVS\_EC\_CAMERA\_USB\_WRITE | 0xE0000406 | 写USB出错 |
+| IMVS\_EC\_CAMERA\_USB\_DEVICE | 0xE0000407 | 设备异常 |
+| IMVS\_EC\_CAMERA\_USB\_BANDWIDTH | 0xE0000408 | USB带宽不足 |
+| IMVS\_EC\_CAMERA\_NODATA | 0xE0000409 | 相机无数据 |
+| IMVS\_EC\_CAMERA\_EMPTY | 0xE0000410 | 未连接相机 |
+| IMVS\_EC\_CAMERA\_TYPE\_NOT\_MATCH | 0xE0000411 | 相机类型不匹配 |
+
+| 算法相关错误码 | | |
+| --- | --- | --- |
+| 名称 | 值 | 说明 |
+| IMVS\_EC\_ALGORITHM\_IMG\_DATA\_NULL | 0xE0000500 | 图像数据存储地址为空（某个分量） |
+| IMVS\_EC\_ALGORITHM\_IMG\_STEP | 0xE0000501 | 图像宽高与step参数不匹配 |
+| IMVS\_EC\_ALGORITHM\_IMG\_SIZE | 0xE0000502 | 图像宽高不正确或者超出范围 |
+| IMVS\_EC\_ALGORITHM\_IMG\_FORMAT | 0xE0000503 | 图像格式不正确或者不支持 |
+| IMVS\_EC\_ALGORITHM\_MEM\_SIZE\_ALIGN | 0xE0000504 | 内存空间大小不满足对齐要求 |
+| IMVS\_EC\_ALGORITHM\_MEM\_LACK | 0xE0000505 | 内存空间大小不够 |
+| IMVS\_EC\_ALGORITHM\_MEM\_ALIGN | 0xE0000506 | 内存对齐不满足要求 |
+| IMVS\_EC\_ALGORITHM\_ABILITY\_ARG | 0xE0000507 | ABILITY存在无效成员变量 |
+| IMVS\_EC\_ALGORITHM\_CPUID | 0xE0000508 | cpu不支持优化代码中的指令集 |
+| IMVS\_EC\_ALGORITHM\_DATA\_SIZE | 0xE0000509 | 数据大小不正确 |
+| IMVS\_EC\_ALGORITHM\_CALL\_BACK | 0xE000050A | 回调函数出错 |
+| IMVS\_EC\_ALGORITHM\_OVER\_MAX\_MEM | 0xE000050B | 超过HKA限定最大内存 |
+| IMVS\_EC\_ALGORITHM\_STEP\_ERR | 0xE000050C | 数据STEP错误 |
+| IMVS\_EC\_ALGORITHM\_PARAM\_INDEX | 0xE000050D | 参数index错误 |
+| IMVS\_EC\_ALGORITHM\_PARAM\_NUM | 0xE000050E | 参数个数错误 |
+| IMVS\_EC\_ALGORITHM\_NOT\_INIT | 0xE000050F | 算法库未初始化 |
+| IMVS\_EC\_ALGORITHM\_INPUT\_IMAGE\_ERROR | 0xE0000510 | 获取输入图像失败 |
+| IMVS\_EC\_ALGORITHM\_INPUT\_ROI\_ERROR | 0xE0000511 | 获取输入ROI失败 |
+| IMVS\_EC\_ALGORITHM\_INPUT\_FIXTUREINFO\_ERROR | 0xE0000512 | 获取位置修正信息失败 |
+| IMVS\_EC\_ALGORITHM\_MODEL\_EMPTY | 0xE0000513 | 模型数据为空 |
+| IMVS\_EC\_ALGORITHM\_ROITYPE\_UNKNOWN | 0xE0000514 | 未定义的ROI类型 |
+| IMVS\_EC\_ALGORITHM\_IMG\_PATH | 0xE0000515 | 不支持含中文的路径 |
+| IMVS\_EC\_ALGORITHM\_TEACH\_NOREADY | 0xE0000516 | 未发送示教信息 |
+| IMVS\_EC\_ALGORITHM\_CALIB\_NOREADY | 0xE0000517 | 标定流程未完成 |
+| IMVS\_EC\_ALGORITHM\_NOT\_SUPPORT\_INVERT\_SELECT | 0xE0000518 | 最小值和最大值相等，不支持反选 |
+
+| 服务操作错误码 | | |
+| --- | --- | --- |
+| 名称 | 值 | 说明 |
+| IMVS\_EC\_SERVICE\_CREATE | 0xE0000600 | 创建服务失败 |
+| IMVS\_EC\_SERVICE\_DELETE | 0xE0000601 | 删除服务失败 |
+| IMVS\_EC\_SERVICE\_OPEN | 0xE0000602 | 打开服务失败 |
+| IMVS\_EC\_SERVICE\_START | 0xE0000603 | 服务启动失败 |
+| IMVS\_EC\_SERVICE\_STOP | 0xE0000604 | 服务停止失败 |
+| IMVS\_EC\_SERVICE\_GET\_PATH | 0xE0000605 | 服务路径获取失败 |
+| IMVS\_EC\_SERVICE\_FIND\_FILE | 0xE0000606 | 服务文件查找失败 |
+| IMVS\_EC\_SERVICE\_LOAD\_LIBRARY | 0xE0000607 | 服务库加载失败 |
+| IMVS\_EC\_SERVICE\_RETRIEVES\_FUNC | 0xE0000608 | 服务函数检索失败 |
+
+| 软件授权错误码 | | |
+| --- | --- | --- |
+| 名称 | 值 | 说明 |
+| IMVS\_EC\_ENCRYPT\_DONGLE\_OUTDATE | 0xE0000700 | 加密狗未检测到或检测异常 |
+| IMVS\_EC\_ENCRYPT\_DONGLE\_OLD\_EXPIRE | 0xE0000701 | 算法平台老版本狗试用时间过期 |
+| IMVS\_EC\_ENCRYPT\_ALGORITHM\_CHECK\_FAIL | 0xE0000702 | 算法库检测授权失败 |
+| IMVS\_EC\_ENCRYPT\_ALGORITHM\_EXPIRE | 0xE0000703 | 算法库使用期已过 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_OUTDATE | 0xE0000704 | 软锁未检测到或检测异常 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_NOT\_ACTIVATED | 0xE0000705 | 产品授权未激活 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_NOT\_SUPPORT | 0xE0000706 | 软锁不支持的功能ID |
+| IMVS\_EC\_ENCRYPT\_SOFT\_FEATURE\_EXPIRE | 0xE0000707 | 授权的功能已过期 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_ACCESS\_DENIED | 0xE0000708 | 访问被拒绝 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_NO\_TIME | 0xE0000709 | 时钟不可用 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_NO\_DRIVER | 0xE000070A | 未安装软加密RTE |
+| IMVS\_EC\_ENCRYPT\_SOFT\_TS\_DETECTED | 0xE000070B | 程序在终端运行 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_RDP\_DETECTED | 0xE000070C | 程序在远程端运行 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_VM\_DETECTED | 0xE000070D | 程序在虚拟机运行 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_FEATURE\_NOT\_FOUND | 0xE000070E | 功能未找到 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_INNERIMPL\_ERROR | 0xE000070F | 内部实现错误 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_PRODUCT\_NOT\_FOUND | 0xE0000710 | 产品未找到 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_RESULTS\_EMPTY | 0xE0000711 | 查询结果为空 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_ABILITY\_OR\_RESOURCE | 0xE0000712 | 超出能力集或可用内存资源不足导致获取许可信息失败 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_FEATURE\_FORBIDDEN | 0xE0000713 | 机器不满足授权要求而被禁用 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_HASP\_NOT\_FOUND | 0xE0000714 | 未找到可用的保护锁 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_BROKEN\_SESSION | 0xE0000715 | 会话已断开，如超时 |
+| IMVS\_EC\_ENCRYPT\_SOFT\_COMM\_ERR | 0xE0000716 | 通信错误 |
+| IMVS\_EC\_ENCRYPT\_WITHOUT\_DEVELOP\_AUTH | 0xE0000717 | 没有开发狗权限 |
+| IMVS\_EC\_ENCRYPT\_CAMERA\_COUNT\_BEYOND | 0xE0000718 | 相机模块数量超出限制 |
+| IMVS\_EC\_ENCRYPT\_KEY\_INDOG\_WRONG | 0xE0000719 | 校验加密狗中密码失败 |
+| IMVS\_EC\_ENCRYPT\_DECRYPT\_FAIL\_WITH\_DOG | 0xE000071A | 使用加密狗解密文件失败 |
+| IMVS\_EC\_ENCRYPT\_REMOTE\_DONGLE\_CHECK | 0xE000071B | 网络锁校验失败 |
+| IMVS\_EC\_ENCRYPT\_REMOTE\_DONGLE\_MAX\_CONNECTION | 0xE000071C | 网络锁已达到最大并发授权 |
+| IMVS\_EC\_ENCRYPT\_DONGLE\_SERIES\_NOT\_SUPPORT | 0xE000071D | 该加密狗系列不支持 |
+| IMVS\_EC\_ENCRYPT\_DONGLE\_ENCRYPT\_FAIL | 0xE000071E | 使用加密狗加密数据失败 |
+| IMVS\_EC\_ENCRYPT\_CHECK\_DECRYPTED\_DATA\_FAIL | 0xE000071F | 解密后的数据校验失败 |
+| IMVS\_EC\_ENCRYPT\_TWO\_MORE\_DONGLE\_SET\_PWD | 0xE0000720 | 有两个及以上加密狗设置了密码 |
+| IMVS\_EC\_DECRYPT\_FAIL\_TWO\_MORE\_DONGLE\_SET\_PWD | 0xE0000721 | 文件解密失败，有两个及以上加密狗设置了密码 |
+
+| 用户权限错误码 | | |
+| --- | --- | --- |
+| 名称 | 值 | 说明 |
+| IMVS\_EC\_AUTH\_SOLU\_PASSWORD | 0xE0000800 | 方案密码错误 |
+| IMVS\_EC\_AUTH\_USER\_PASSWORD | 0xE0000801 | 用户或密码错误（预留） |
+| IMVS\_EC\_AUTH\_REMOTE\_NO\_PASSWORD | 0xE0000802 | 远程连接需设置密码 |
+| IMVS\_EC\_AUTH\_REMOTE\_PASSWORD\_INVALID | 0xE0000803 | 远程连接密码错误 |
+| IMVS\_EC\_AUTH\_ORIGINAL\_PASSWORD\_INVALID | 0xE0000804 | 原密码错误 |
+| IMVS\_EC\_AUTH\_ASSWORD\_IS\_EXIST | 0xE0000805 | 密码已存在 |
+| IMVS\_EC\_AUTH\_USER\_LOCKOUT | 0xE0000806 | 用户锁定 |
+| IMVS\_EC\_AUTH\_NO\_LOGINUSER\_DATABASE\_FILE | 0xE0000807 | 没有登录用户数据文件 |
+
+| 警告信息错误码 | | |
+| --- | --- | --- |
+| 名称 | 值 | 说明 |
+| IMVS\_EC\_WARN\_MODULE\_INPUT\_SUB | 0xE0000900 | 模块输入未订阅 |
+| IMVS\_EC\_WARN\_ALGORITHM | 0xE0000901 | 算法库中出现警告 |
+
+| 模块数据上报错误码 | | |
+| --- | --- | --- |
+| 名称 | 值 | 说明 |
+| IMVS\_EC\_MODULE\_ALGORITHM\_INIT | 0xE0001000 | 模块算法类初始化结果 |
+| IMVS\_EC\_MODULE\_REPORT\_CODE | 0xE0001001 | 模块错误码上报 |
+
+| 模型相关错误码 | | |
+| --- | --- | --- |
+| 名称 | 值 | 说明 |
+| IMVS\_EC\_MODEL\_OPEN | 0xE0001100 | 模型无法打开 |
+| IMVS\_EC\_MODEL\_NOT\_FOUND | 0xE0001101 | 模型不存在 |
+| IMVS\_EC\_MODEL\_FORMAT | 0xE0001102 | 模型格式错误 |
+| IMVS\_EC\_MODEL\_BE\_OCCUPIED | 0xE0001103 | 模型文件被占用 |
+| IMVS\_EC\_MODEL\_DATA | 0xE0001104 | 模型数据异常 |
+| IMVS\_EC\_MODEL\_DATA\_LENGTH | 0xE0001105 | 模型数据长度异常 |
+| IMVS\_EC\_GET\_ROI\_FROM\_MODEL\_FAIL | 0xE0001106 | 从模型中获取ROI失败 |
+
+| 代理相关错误码 | | |
+| --- | --- | --- |
+| 名称 | 值 | 说明 |
+| IMVS\_EC\_PROXY\_LACK\_BINARYDATA | 0xE0001200 | 缺少二进制数据（需要外部输入数据） |
+| IMVS\_EC\_PROXY\_LACK\_BINARYMEMORY | 0xE0001201 | 缺少二进制内存（需要外部申请内存） |
+
+| FTP相关错误码 | | |
+| --- | --- | --- |
+| 名称 | 值 | 说明 |
+| IMVS\_EC\_FTP\_CONNECT\_FAIL | 0xE0001307 | FTP连接失败 |
+| IMVS\_EC\_FTP\_ACCESS\_DENIED | 0xE0001309 | FTP拒绝访问 |
+| IMVS\_EC\_FTP\_CONNECT\_TIMEOUT | 0xE0001328 | FTP连接超时 |
+| IMVS\_EC\_FTP\_UPLOAD\_FAIL | 0xE0001355 | FTP上传数据失败 |
+| IMVS\_EC\_FTP\_LOGIN\_DENIED | 0xE0001367 | FTP登录失败 |

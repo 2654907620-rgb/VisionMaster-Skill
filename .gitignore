@@ -1,0 +1,25 @@
+# 缓存与临时残留 —— 不进仓库
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_tmp*/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.log
+logs/
+*.bak
+*.bak-*
+*.tmp
+
+# 凭据 —— 绝对不能进仓库
+.env
+.env.*
+config.local.*
+*.secret
+
+# 系统噪声
+.DS_Store
+Thumbs.db
+desktop.ini

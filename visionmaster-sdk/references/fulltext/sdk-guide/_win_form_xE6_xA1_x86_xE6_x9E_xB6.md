@@ -1,0 +1,23 @@
+<!-- src:_win_form_xE6_xA1_x86_xE6_x9E_xB6.html -->
+<!-- path:编程引导 > 配置流程 > WinForm框架 -->
+# WinForm框架
+
+本章节主要介绍WinForm框架的配置流程及其注意事项。
+
+## 控件调用
+
+1. 动态库文件 VMControls.Winform.Release.dll 内，已定义以Winform方式封装的控件类。
+2. 使用自动工具/手动添加该动态库及其依赖库的引用，推荐自动工具方式，工具路径：..\Development\V4.x\ComControls\Tool\ImportRef.exe。
+3. 正常安装后，默认可从WinForm工具箱中拖出控件。
+
+   注解
+   :   若工具箱中无对应控件，可通过右键菜单【选择项】打开【选择工具箱项】界面，然后手动浏览打开对应版本VMControls.Winform.Release.dll动态库文件，最后勾选.NET Framework组件以添加对应控件。
+
+## 注意事项
+
+* 支持.NET Framework，要求4.6.1版本及以上，不支持.NET Core。
+* 在项目属性中的平台目标选择【Any CPU】的情况下，需去除勾选【首选32位】。
+* 手动添加VM相关动态库引用后，需设置库属性中的复制本地为【False】。
+* 程序退出前，可调用接口释放VM相关资源，请避免在析构函数中调用接口。
+* 参数控件和参数渲染控件暂不支持记忆参数订阅框显示的默认方式。
+* 独立Group控件暂不支持执行和耗时显示功能。

@@ -1,0 +1,87 @@
+<!-- src:class_i_m_v_s2d_array_correct_modu_cs_1_1_array2d_correct_param.html -->
+<!-- path:接口函数 > 拆分组合 > 二维阵列 > Array2dCorrectParam -->
+# Array2dCorrectParam类 参考 拆分组合 » 二维阵列
+
+二维阵列参数
+更多...
+
+继承自 CModuleParamBase .
+
+|  |  |
+| --- | --- |
+| 属性 | |
+| List< RectBox > | InputBox `[set]` |
+|  | 区域 更多... |
+|  | |
+| int | ArrayRowsNum `[get, set]` |
+|  | 阵列行数，范围：[1,100] 更多... |
+|  | |
+| int | ArrayColsNum `[get, set]` |
+|  | 阵列列数，范围：[1,100] 更多... |
+|  | |
+
+|  |  |
+| --- | --- |
+| 额外继承的成员函数 | |
+| Public 成员函数 继承自 CModuleParamBase | |
+| int | GetParamValue (String strName, ref String strValue) |
+|  | 获取参数值 更多... |
+|  | |
+| int | SetParamValue (String strName, String strValue) |
+|  | 设置参数值 更多... |
+|  | |
+| int | GetBinaryData (String strName, IntPtr pBinData, uint nMemSize, ref uint nDataLen) |
+|  | 获取二进制数据 更多... |
+|  | |
+| int | SetBinaryData (String strName, IntPtr pBinData, uint nDataLen) |
+|  | 设置二进制数据 更多... |
+|  | |
+| void | SetInputInt (String strName, int[] anIntVal) |
+|  | 设置整型输入 更多... |
+|  | |
+| void | SetInputFloat (String strName, float[] anFloatVal) |
+|  | 设置浮点型输入 更多... |
+|  | |
+| void | SetInputString (String strName, InputStringData[] astStrData) |
+|  | 设置字符串型输入 更多... |
+|  | |
+| void | SetInputImage (InputImageData stImageData) |
+|  | 设置图像型输入 更多... |
+|  | |
+| void | SetInputBytes (String strName, BytesData stBytesData) |
+|  | 设置二进制数据型输入 更多... |
+|  | |
+
+## 详细描述
+
+二维阵列参数
+
+## 属性说明
+
+## ◆ InputBox
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | List<RectBox> InputBox | | set |
+
+区域
+
+**备注**
+
+仅当次执行起效
+
+## ◆ ArrayRowsNum
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | int ArrayRowsNum | | getset |
+
+阵列行数，范围：[1,100]
+
+## ◆ ArrayColsNum
+
+|  |  |  |
+| --- | --- | --- |
+| |  | | --- | | int ArrayColsNum | | getset |
+
+阵列列数，范围：[1,100]

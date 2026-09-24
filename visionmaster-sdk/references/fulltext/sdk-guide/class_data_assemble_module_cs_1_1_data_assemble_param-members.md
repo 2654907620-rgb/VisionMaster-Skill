@@ -1,0 +1,20 @@
+<!-- src:class_data_assemble_module_cs_1_1_data_assemble_param-members.html -->
+# DataAssembleParam 成员列表
+
+成员的完整列表，这些成员属于 DataAssembleParam,包括所有继承而来的类成员
+
+|  |  |  |
+| --- | --- | --- |
+| AssembleType | DataAssembleParam |  |
+| AssembleTypeEnum 枚举名称 | DataAssembleParam |  |
+| GetBinaryData(String strName, IntPtr pBinData, uint nMemSize, ref uint nDataLen) | CModuleParamBase |  |
+| GetParamValue(String strName, ref String strValue) | CModuleParamBase |  |
+| PyScriptPath | DataAssembleParam |  |
+| Separator | DataAssembleParam |  |
+| SetBinaryData(String strName, IntPtr pBinData, uint nDataLen) | CModuleParamBase |  |
+| SetInputBytes(String strName, BytesData stBytesData) | CModuleParamBase |  |
+| SetInputFloat(String strName, float[] anFloatVal) | CModuleParamBase |  |
+| SetInputImage(InputImageData stImageData) | CModuleParamBase |  |
+| SetInputInt(String strName, int[] anIntVal) | CModuleParamBase |  |
+| SetInputString(String strName, InputStringData[] astStrData) | CModuleParamBase |  |
+| SetParamValue(String strName, String strValue) | CModuleParamBase |  |
